@@ -1,0 +1,52 @@
+
+/* 
+    Created on : Jun 8, 2023, 7:48:32 PM
+    Author     : oport
+*/
+
+SECTION p{
+    background-color: orange;
+    color:white;
+
+}
+
+/* 
+  Aqui con h1 h2 usamos factorizacion para alinear el texto en el centro 
+*/
+h1, h2 {
+    text-align: center;
+
+
+}
+
+h1 {
+
+    background-color: orange;
+    color:black;
+
+}
+
+h2 {
+
+    background-color: greenyellow;
+    color:purple;
+
+}
+
+thead tr{
+    background-color: blue;
+    color: yellow;
+    
+}
+
+tbody tr:nth-child(even){
+    background-color: yellow;
+  
+    
+}
+
+tbody tr:nth-child(odd){
+    background-color: grey;
+  
+    
+}
